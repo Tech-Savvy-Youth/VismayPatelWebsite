@@ -10,7 +10,7 @@
     <!-- <link rel="icon" type="image/x-icon" href="/src/images/ICC LOGO.svg"> -->
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav style = "position: fixed;" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Vismay Patel</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,17 +28,29 @@
                         <a class="nav-link" href="#">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Me</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">My 501(C)3 Nonprofit</a>
                     </li>
                 </ul>
-                <span class="navbar-text"></span>
             </div>
         </div>
     </nav>
 
+    <div class = "title">
+        <h2>Vismay<br>Patel</h2>
+        <h4>Java Developer</h4>
+        <br><br>
+    </div>
+    <div class = "links">
+        <!-- Linkedin -->
+        <a href = "">
+            <img src = "">
+        </a>
+        <!-- GitHub -->
+        <!-- Cirkledin -->
+        <!-- Email -->
+        <!-- YouTube -->
+        <!-- Discord -->
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

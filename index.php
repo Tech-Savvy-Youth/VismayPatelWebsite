@@ -9,7 +9,7 @@
     <title>Vismay Patel</title>
     <!-- <link rel="icon" type="image/x-icon" href="/src/images/ICC LOGO.svg"> -->
 </head>
-<body id = "body">
+<body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Vismay Patel</a>
@@ -38,12 +38,12 @@
 
     <br>
 
-    <div class = "title">
+    <div id = "body" class = "title">
         <h2>Vismay<br>Patel</h2>
         <h4>Java Developer</h4>
         <br><br>
     </div>
-    <div class = "links">
+    <div id = "body" class = "links">
         <!-- Linkedin -->
         <a href = "">
             <img src = "">

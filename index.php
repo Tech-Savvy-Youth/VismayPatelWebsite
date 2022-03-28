@@ -31,6 +31,7 @@
                         <a class="nav-link" href="#">My 501(C)3 Nonprofit</a>
                     </li>
                 </ul>
+                <span class="navbar-text"></span>
             </div>
         </div>
     </nav>

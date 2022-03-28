@@ -38,12 +38,12 @@
 
     <br>
 
-    <div id = "body" class = "title">
+    <div id = "background" class = "title">
         <h2>Vismay<br>Patel</h2>
         <h4>Java Developer</h4>
         <br><br>
     </div>
-    <div id = "body" class = "links">
+    <div id = "backgrounf" class = "links">
         <!-- Linkedin -->
         <a href = "">
             <img src = "">
@@ -55,14 +55,17 @@
         <!-- Discord -->
     </div>
 
+    <div id = "background">
+        <p>Hello<br>Hello<br>Hello</p>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-<script src="three.r119.min.js"></script>
+    <script src="three.r119.min.js"></script>
     <script src="vanta.halo.min.js"></script>
     <script>
         VANTA.HALO({
-        el: "#body",
+        el: "#background",
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
@@ -71,4 +74,5 @@
         baseColor: 0xde0572
         })
     </script>
+</body>
 </html>

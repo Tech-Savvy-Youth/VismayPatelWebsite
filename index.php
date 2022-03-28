@@ -43,7 +43,7 @@
         <h4>Java Developer</h4>
         <br><br>
     </div>
-    <div id = "backgrounf" class = "links">
+    <div id = "background" class = "links">
         <!-- Linkedin -->
         <a href = "">
             <img src = "">

@@ -9,7 +9,7 @@
     <title>Vismay Patel</title>
     <!-- <link rel="icon" type="image/x-icon" href="/src/images/ICC LOGO.svg"> -->
 </head>
-<body>
+<body id = "body">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Vismay Patel</a>
@@ -57,5 +57,18 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="three.r119.min.js"></script>
+    <script src="vanta.halo.min.js"></script>
+    <script>
+        VANTA.HALO({
+        el: "#body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        baseColor: 0xde0572
+        })
+    </script>
 </body>
 </html>

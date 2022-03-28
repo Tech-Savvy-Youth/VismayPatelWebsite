@@ -36,6 +36,8 @@
         </div>
     </nav>
 
+    <br>
+
     <div class = "title">
         <h2>Vismay<br>Patel</h2>
         <h4>Java Developer</h4>

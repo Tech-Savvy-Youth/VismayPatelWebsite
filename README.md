@@ -1,6 +1,4 @@
-# Website for the Interlake Cricket Club created by Vismay Patel
-
-## Secretary/Treasurer of Interlake Cricket Club 2021-2022
+# Vismay Patel's Personal Website
 
 ### Find my other websites!
 

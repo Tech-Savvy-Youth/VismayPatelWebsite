@@ -36,29 +36,87 @@
         </div>
     </nav>
 
-    <br>
-
-    <div id = "background">
+    <div id = "background1">
+		<br><br><br>
         <div class = "title">
-            <h2>Vismay<br>Patel</h2>
+            <h2>Vismay Patel</h2>
+			<br>
             <h4>Java Developer</h4>
-            <br><br>
+			<h4>Game and Website Creator</h4>
+            <br><br><br><br><br>
         </div>
         
         <div class = "links">
+            <a href = "https://www.linkedin.com/in/vismaypatelcs/">
             <!-- Linkedin -->
-            <a href = "">
-                <img src = "">
+                <img src = "src/images/linkedin.png">
             </a>
             <!-- GitHub -->
+			<a href = "https://github.com/Vismaypikachu">
+				<img src = "src/images/github.png">
+			</a>
             <!-- Cirkledin -->
+			<a href = "https://www.cirkledin.com/student-profile/profile.php?&p=MXeQdfncWOlFZitLlZOWg0WAsuaFWXXol">
+				<img src = "">
+			</a>
             <!-- Email -->
+			<a href = "mailto:vismaypikachu@gmail.com">
+				<img src = "src/images/gmail.png">
+			</a>
             <!-- YouTube -->
+			<a href = "https://youtube.com/Vismaypikachu">
+				<img src = "src/images/YouTube-icon.png">
+			</a>
             <!-- Discord -->
+			<a href = "https://discord.gg/DrEhfxU986">
+				<img src = "src/images/discord.png">
+			</a>
         </div>
-
-        <div>
-            <p>Hello<br>Hello<br>Hello</p>
+			<br><br><br>
+			
+        <div class = "certifications">
+			<div class="certification" style="width: 20.5rem;">
+				<img src="src/images/Java.png" class="card-img-top">
+				<div class="card-body">
+					<p class="card-text">Introduction to Programming Using Java Certification from Microsoft</p>
+				</div>
+				<br>
+				<div class="card-footer">
+					<small class="text-muted">Achieved March 15th, 2022</small>
+				</div>
+			</div>
+			
+			<div class="certification" style="width: 20.5rem;">
+				<img src="src/images/OS.png" class="card-img-top">
+				<div class="card-body">
+					<p class="card-text">Windows Operating System Fundamentals Certification from Microsoft</p>
+				</div>
+				<div class="card-footer">
+					<small class="text-muted">Achieved March 15th, 2022</small>
+				</div>
+			</div>
+			
+			<div class="certification" style="width: 20.5rem;">
+				<img src="src/images/SoftwareDev.png" class="card-img-top">
+				<div class="card-body">
+					<p class="card-text">Software Development Fundamentals Certification from Microsoft</p>
+				</div>
+				<div class="card-footer">
+					<small class="text-muted">Achieved March 15th, 2022</small>
+				</div>
+			</div>
+			
+			<div class="certification" style="width: 20.5rem;">
+				<img src="src/images/HTML.png" class="card-img-top">
+				<div class="card-body">
+					<p class="card-text">Introduction to Programming Using HTML and CSS Certification from Microsoft</p>
+				</div>
+				<div class="card-footer">
+					<small class="text-muted">Achieved March 22nd, 2022</small>
+				</div>
+			</div>
+			
+			
         </div>
     </div>
 
@@ -68,7 +126,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
     <script>
         VANTA.HALO({
-        el: "#background",
+        el: "#background1",
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
@@ -76,7 +134,9 @@
         minWidth: 200.00,
         baseColor: 0xea1360,
         backgroundColor: 0x805abb,
-        amplitudeFactor: 1.30
+        amplitudeFactor: 1.30,
+		size: 1.0,
+		yOffset: 0.1
         })
     </script>
 </body>

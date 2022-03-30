@@ -22,12 +22,12 @@ html, body {
 
 .title h2{
 	font-size: 45px;
-	color: white;
+	color: black;
 }
 
 .title h4{
 	font-size: 25px;
-	color: white;
+	color: black;
 }
 
 .links{
@@ -55,6 +55,23 @@ html, body {
 
 
 .certification{
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px #00000033;
+    padding: 20px;
+	background-color: #FAFAFA;
+	text-align: center;
+}
+
+.projects{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+.project{
     border-radius: 10px;
     box-shadow: 0px 10px 20px #00000033;
     padding: 20px;

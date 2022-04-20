@@ -2,7 +2,7 @@
 
 ### Find my other websites!
 
-- http://interlakecricket.com  -Website I made for the Club
+- https://interlakecricket.com  -Website I made for the Club
 - https://techsavvyyouth.org  -My 501(C)3 Nonprofit
 - 52.168.78.7                 -IB CAS Project
 

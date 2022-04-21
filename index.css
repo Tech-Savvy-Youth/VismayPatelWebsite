@@ -80,10 +80,10 @@ html, body {
 	text-align: center;
 }
 
-h1, h2, h3, h4, h5, h5{
+/* h1, h2, h3, h4, h5, h5{
     -webkit-text-fill-color: black;
     -webkit-text-stroke: 1.5px black;
-}
+} */
 
 footer{
     width: 100%;

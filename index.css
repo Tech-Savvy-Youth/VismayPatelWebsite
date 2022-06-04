@@ -1,6 +1,6 @@
 @font-face {
     font-family: Helvetica;
-    res: url(/res/fonts/helvetica-rounded.otf);
+    src: url(/res/fonts/helvetica-rounded.otf);
 }
 
 

@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Helvetica;
+    font-family: "HelveticaNew", sans-serif;
     src: url(/res/fonts/helvetica-rounded.otf);
 }
 
@@ -8,7 +8,7 @@ html, body {
     margin: 0;
     background-color: #FAFAFA;
     overflow-x: hidden;
-    font-family: Helvetica;
+    font-family: HelveticaNew;
 }
 
 * {
@@ -18,7 +18,7 @@ html, body {
 .title{
     width: 100%;
     text-align: center;
-	font-family: Helvetica;
+	font-family: HelveticaNew;
 }
 
 .title h2{
